@@ -40,3 +40,11 @@ argocd repo add https://github.com/mida-hub/gitops-argocd.git --username mida-hu
 
 argocd repo list
 ```
+
+# ArgoCD Create App
+create app on browser
+
+## port forward
+```
+kubectl port-forward service/wordpress -n dev 30000:80
+```
