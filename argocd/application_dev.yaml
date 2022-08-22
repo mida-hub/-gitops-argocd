@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     path: wordpress/overlays/dev
-    repoURL: https://gitlab.com/cloudnativetips/cd-sample.git
+    repoURL: https://github.com/mida-hub/gitops-argocd.git
     targetRevision: main
   syncPolicy:
     automated:
